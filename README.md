@@ -24,4 +24,4 @@ Then go to http://localhost:3001/. Click on the "Enable notifications" button to
 Please note that request for notifications won't work in browser "private" mode.
 
 ## Documentation
-Code is self-explanatory with necessary comments. See [/public/javascripts/notifs.js](notifs.js) to how it works.
+Code is self-explanatory with necessary comments. See [/public/javascripts/notifs.js](/public/javascripts/notifs.js) to how it works.
