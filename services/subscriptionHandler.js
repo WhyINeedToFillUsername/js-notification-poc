@@ -34,7 +34,7 @@ function sendPushNotification(req, res) {
                 text: "HEY! Take a look at this brand new t-shirt!",
                 image: "/images/fit.png",
                 tag: "new-product",
-                url: "/result.html"
+                url: "/result"
             })
         )
         .catch(err => {

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Push Notification example</title>
+</head>
+<body>
+<h1>Push Notification example</h1>
+<p>This example is based on <a href="https://itnext.io/an-introduction-to-web-push-notifications-a701783917ce">this article.</a></p>
+
+<p>1) Are Push notification are supported by this browser: <span id="push-notification-supported"></span></p>
+
+<p>2) User consent to push notification: <span id="push-notification-consent"></span></p>
+
+<p>3) step 1 : Ask user consent to show notifications</p>
+<button disabled id="ask-user-permission-button">Ask user permission</button>
+
+<p>4) step 2 : Susbcribe to push notification</p>
+<p>this will create an endpoint that has to be sent to the push server</p><br>
+<button disabled id="create-notification-subscription-button">Create notification subscription</button>
+  
+<p>5) step 3 : Send the notification to the push server</p>
+<button disabled id="send-subscription-button">Send subscription to push server</button>
+  
+<p>6) step 4 : Ask the push server for a notification</p>
+<p>in production you don't ask for notifications, The push server decide itself when to send them</p><br>
+<button disabled id="send-push-notification-button">Send a push notification</button>
+  
+<p>7) User susbription:</p>
+<pre id="user-susbription"><code></code></pre>
+
+</body>
+<script src="javascripts/push-bundle.js"></script>
+</html>

@@ -10,4 +10,12 @@ router.get('/', function (req, res, next) {
     res.sendFile('notification.html', {root: app.get('html')});
 });
 
+router.get('/push', function (req, res, next) {
+    res.sendFile('push.html', {root: app.get('html')});
+});
+
+router.get('/result', function (req, res, next) {
+    res.sendFile('result.html', {root: app.get('html')});
+});
+
 module.exports = router;

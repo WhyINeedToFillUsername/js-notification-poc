@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "browserify"
+    "build": "browserify src/index.js -o public/javascripts/push-bundle.js"
   },
   "dependencies": {
     "browserify": "^16.5.1",
