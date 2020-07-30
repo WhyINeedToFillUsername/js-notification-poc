@@ -7,11 +7,18 @@ You need to install [node.js](https://nodejs.org/) (with included [npm](https://
 because of https://github.com/digitalbazaar/rdf-canonize/issues/5-->
 
 ## Install
-Run the following command in the **module's root folder**:
+Run the following command in the **root folder**:
 ```bat
 npm install
 ```
 It installs all project dependencies, for details see https://docs.npmjs.com/cli/install.
+
+## Build
+Run the following command in the **root folder**:
+```bat
+npm build
+```
+It uses [browserirfy](http://browserify.org/) to build the project javascript bundle files.
 
 ## Run
 The node.js server is set to listen on local port 3001. You can change that in the bin/www files.
